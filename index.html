@@ -1,28 +1,49 @@
-<html>
-  <head>
-    <title>Concrete</title>
-    <link rel='stylesheet' type='text/css' href='https://raw.github.com/davidlumley/concrete/master/concrete.css'>
-    <style>
-    html,body{font-size:16px;line-height:2em;font-family:'Helvetica Neue',Arial,sans-serif;color:#3c4141}.column .content,.columns .content{width:100%;margin-top:10px;margin-bottom:10px;padding-top:10px;padding-bottom:10px;border-radius:3px;background:#dce1e1}.column .content p,.columns .content p{text-align:center}.column .column .content,.column .columns .content,.columns .column .content,.columns .columns .content{background:#c8cdcd}
-    </style>
-  </head>
-  <body>
+<div class='row'>
+  <div class='twelve columns'>
+    <h1>Concrete</h1>
+    <p>A simple, responsive, grid framework designed to work on high resolution desktops, right down to mobile.</p>
+  </div>
+</div>
+<div class='row'>
+  <div class='twelve columns'>
+    <div class='content'><p>twelve columns</p></div>
+  </div>
+  <div class='four columns'>
+    <div class='content'><p>four columns</p></div>
+  </div>
+  <div class='eight columns'>
+    <div class='content'><p>eight columns</p></div>
+  </div>
+  <div class='six columns'>
+    <div class='content'><p>six columns</p></div>
+  </div>
+  <div class='six columns'>
+    <div class='content'><p>six columns</p></div>
+  </div>
+</div>
+<div class='row'>
+  <div class='twelve columns'>
+    <p>You can also nest columns.</p>
+  </div>
+</div>
+<div class='row'>
+  <div class='three columns'>
     <div class='row'>
-      <div class='twelve columns'>
-        <h1>Concrete</h1>
-        <p>A simple, responsive, grid framework designed to work on high resolution desktops, right down to mobile. Check it out on <a href='https://github.com/davidlumley/concrete'>Github</a></p>
+      <div class='six columns'>
+        <div class='content'><p>six columns</p></div>
+      </div>
+      <div class='six columns'>
+        <div class='content'><p>six columns</p></div>
       </div>
     </div>
     <div class='row'>
       <div class='twelve columns'>
         <div class='content'><p>twelve columns</p></div>
       </div>
-      <div class='four columns'>
-        <div class='content'><p>four columns</p></div>
-      </div>
-      <div class='eight columns'>
-        <div class='content'><p>eight columns</p></div>
-      </div>
+    </div>
+  </div>
+  <div class='nine columns'>
+    <div class='row'>
       <div class='six columns'>
         <div class='content'><p>six columns</p></div>
       </div>
@@ -32,40 +53,26 @@
     </div>
     <div class='row'>
       <div class='twelve columns'>
-        <p>You can also nest columns.</p>
+        <div class='content'><p>twelve columns</p></div>
       </div>
     </div>
-    <div class='row'>
-      <div class='three columns'>
-        <div class='row'>
-          <div class='six columns'>
-            <div class='content'><p>six columns</p></div>
-          </div>
-          <div class='six columns'>
-            <div class='content'><p>six columns</p></div>
-          </div>
-        </div>
-        <div class='row'>
-          <div class='twelve columns'>
-            <div class='content'><p>twelve columns</p></div>
-          </div>
-        </div>
-      </div>
-      <div class='nine columns'>
-        <div class='row'>
-          <div class='six columns'>
-            <div class='content'><p>six columns</p></div>
-          </div>
-          <div class='six columns'>
-            <div class='content'><p>six columns</p></div>
-          </div>
-        </div>
-        <div class='row'>
-          <div class='twelve columns'>
-            <div class='content'><p>twelve columns</p></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
-</html>
+  </div>
+</div>
+<div class='row'>
+  <div class='twelve columns'>
+    <p>And offset columns too</p>
+  </div>
+</div>
+<div class='row'>
+  <div class='four columns offset by-one'>
+    <div class='content'><p>four columns offset by-one</p></div>
+  </div>
+  <div class='four columns offset by-two'>
+    <div class='content'><p>four columns offset by-two</p></div>
+  </div>
+</div>
+<div class='row'>
+  <div class='six columns offset by-three'>
+    <div class='content'><p>six columns offset by-three</p></div>
+  </div>
+</div>
