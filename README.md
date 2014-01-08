@@ -42,3 +42,5 @@ You can also [see it in action](http://davidlumley.github.io/concrete/).
 ## Contributing
 
 If you're eager to contribute to Concrete's development, please fork it, create a feature branch, then make a pull request.
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/davidlumley/concrete/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
