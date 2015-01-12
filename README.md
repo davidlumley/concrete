@@ -1,6 +1,13 @@
 # Concrete
 
-A simple, responsive, twelve column grid framework.
+A simple, responsive, ultra lightweight twelve column grid framework.
+
+
+Concrete is designed to be easy to read, simple to use, and small in file size.
+
+It's currently:
+* **2402** bytes or
+* **709** bytes gzipped
 
 ## Usage
 
@@ -43,4 +50,10 @@ You can also [see it in action](http://davidlumley.github.io/concrete/).
 
 If you're eager to contribute to Concrete's development, please fork it, create a feature branch, then make a pull request.
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/davidlumley/concrete/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+### Converting SASS/SCSS to CSS
+
+You'll need to ensure ruby is installed.
+
+* `gem install bundler` - to install bundler
+* `bundle install` - to install sass
+* `sass --watch ./scss:./css -t compressed` - to watch the files in the SCSS directory for changes, and compile them into `concrete.css`
